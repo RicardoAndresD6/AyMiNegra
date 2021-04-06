@@ -1,0 +1,59 @@
+[
+    {
+      "id": 1,
+      "nombre": "CRAZY RAINBOW",
+      "imagen": "img/crazyRainbowHelado.jpg",
+      "extraInfo": "Fruity Pebbles / L Condensada",
+      "precio": 6
+    },
+    {
+      "id": 2,
+      "nombre": "MI OTRO AMOR",
+      "imagen": "img/Miotroamorhelado.jpg",
+      "extraInfo": "Cookies & Cream",
+      "precio": 6.25
+    },
+    {
+      "id": 3,
+      "nombre": "EL DUO DINAMICO",
+      "imagen": "img/elduodinamicohelado.jpg",
+      "extraInfo": "Cookies & Cream / Fresas",
+      "precio": 5.50
+    },
+    {
+      "id": 4,
+      "nombre": "BERRY - BERRY",
+      "imagen": "img/berry-berry-smashed-ice.jpg",
+      "extraInfo": "Fresas / Leche Condensada",
+      "precio": 4.90
+    },
+    {
+      "id": 5,
+      "nombre": "MARIA - MARIAA",
+      "imagen": "img/mariamaria.jpg",
+      "extraInfo": "Galleta Maria / L Condensada",
+      "precio": 5
+    },
+    {
+      "id": 6,
+      "nombre": "KINDER ADDICT",
+      "imagen": "img/kinderAdict.jpg",
+      "extraInfo": "Kinder Bueno/Nutella",
+      "precio": 5.25
+    },
+    {
+      "id": 7,
+      "nombre": "BUTTERFINGER BLAST",
+      "imagen": "img/butterfinger.jpg",
+      "extraInfo": "Butterfinger con Caramelo",
+      "precio": 5.75
+    },
+    {
+      "id": 8,
+      "nombre": "UNICORN CHERRY",
+      "imagen": "img/unicornCherry.jpg",
+      "extraInfo": "Cerezas con Leche Condensada",
+      "precio": 5.90
+    }
+  ]
+  

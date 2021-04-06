@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--SEO-->
+    <meta name="keywords" content=" Helado, Nacho Rolls, Crepes, Ice Cream Rolls, Waffle Pop's">
+    <meta name="description" content="Ay Mi Negra es la nueva heladeria que a venido a revolucionar la manera de comer helados.">
+    <meta name="author" content="Ricardo Diaz WEB">
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="img/ayminegraLogo.png" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"/>
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet"  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"/>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <!--Mis Estilos-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Titulo-->
+    <title>Ay Mi Negra - Ice Cream Shop</title>
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <img class="logo" src="img/ayminegraLogo.png" alt="Ay Mi Negra Logo" /> 
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 icon-derecha">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#nosotros">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#productos">Productos</a>
+              </li>
+            </ul>
+            <div class="cart-container">
+                <button class="btn cart" type="button" id="btnAbrirCerrarCarrito">
+                    <img src="img/carrito-de-compras2opcion.png" alt="Logo Carrito" />
+                </button>
+                <div class="cart-products hidden">
+                  <div class="total"></div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!--Header-->
+      <div class="container mt-5">
+        <div class="row justify-content-center align-items-center py-5 my-5">
+          <div class="col-lg-6 wow fadeInLeft">
+            <h2 class="pb-4 h2 pt-2 titulo">
+              WELCOME TO THE CLUB <br>
+              TE DAMOS LA BIENVENIDA  <br>
+              <span style="color: #CE0A08">AY MI NEGRA</span>
+            </h2>
+            <h5>
+              Con una variedad de toppings e ingredientes artesanales,
+              Podrás disfrutar de combinaciones en tus postres favoritos.
+              Crepes - Ice Cream Rolls - Waffle Pop's.
+            </h5>
+            <a href="#productos" class="btn btn-danger mt-5">
+              <span  class="font-weight-bolder"  >Comprar</span>
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <img src="img/ayminegraLogo.jpg" class="img-fluid wow fadeInRight" alt="Responsive image"  width="600" />
+          </div>
+        </div>
+
+        <!--Sobre Nosotros-->
+      <section id="nosotros"> 
+        <div class="row mt-5 align-items-center seccion01 text-center">
+          <div class="col-sm-6">
+            <img src="img/ayminegracomming.jpg" class="img-fluid wow fadeInLeft" alt="Responsive image" width="80%" />
+          </div>
+          <div class="col-sm-6">
+            <h3 class="h3 tittleRed">¡TU DIETA TERMINA AQUI!</h3>
+            <h5> Algunos pecados valen la pena... </h5>
+          </div>
+        </div>
+
+        <div class="row mt-5 align-items-center text-center">
+          <div class="col-sm-6">
+            <h3 class="h3 tittleRed">¡WELCOME TO THE CLUB!</h3>
+            <h5> Llegamos para cambiar la manera de servir helados...  </h5>
+          </div>
+          <div class="col-sm-6">
+            <img src="img/ayminegraabout.jpg" class="img-fluid wow fadeInRight" alt="Responsive image" width="80%"/>
+          </div>
+        </div>
+        <div class="row mt-5 align-items-center seccion03 text-center">
+          <div class="col-sm-6">
+            <img src="img/ayminegraLocal.jpg" class="img-fluid wow fadeInLeft" alt="Responsive image" width="80%"/>
+          </div>
+          <div class="col-sm-6">
+            <h3 class="h3 tittleRed">¡NO NOS SIGAS SI SUFRES DE HAMBRE!</h3>
+            <h5>Quieres pedir algo? LO QUE SEA, PERO CONTIGO.</h5>
+          </div>
+        </div>
+      </div> 
+    </section>  
+  
+      <br>
+      <!--Seccion Productos-->
+      <section class="productSection" id="productos">
+        <h2 class="text-center m-5 tituloRed">Productos</h2>
+            <div class="container product-list">
+              <div class="row products">
+                  <!--Aqui adentro iran todos nuestros productos que vienen desde el JSON-->
+                  
+              </div>
+            </div>
+      </section>
+
+      <main class="contenido contenedor">
+        <section class="destinos">
+          <h2 class="text-center m-5 tituloRed">Populares</h2>
+          <div class="contenedor-cards">
+                  <div class="card">
+                      <img src="img/crepe2.jpg">
+                      <div class="info">
+                          <p class="titulo">Crepes</p>
+                      </div>
+                  </div> <!--.card-->
+                  <div class="card">
+                      <img src="img/cono.jpg">
+                      <div class="info">
+                          <p class="titulo">Ice Cream</p>
+                      </div>
+                  </div> <!--.card-->
+                  <div class="card">
+                      <img src="img/wafflepops.jpg">
+                      <div class="info">
+                          <p class="titulo">Waffle Pop's</p>
+                      </div>
+                  </div> <!--.card-->
+                  <div class="card">
+                      <img src="img/ayminegra3.jpg">
+                      <div class="info">
+                          <p class="titulo">Nosotros</p>
+                      </div>
+                  </div> <!--.card-->
+          </div> <!--.columnas4 cuadros-->
+      </section>
+    </main>
+
+    <section class="site-footer">
+      <div class="conten">
+        <h2 class="pt-5 pb-3">"THE ANTI DIET CLUB"</h2>
+        <p class="p-3">Dejanos tu correo y se parte de premios, ofertas y merch drops exclusivos!</p>
+        <form id="enviar-mail">
+          <div class="text-center">
+              <input id="email" type="email" placeholder="Ingresa Tu Email">
+              <button type="submit" class="carta-submit">
+                <img src="img/email2.png" width="50" />
+              </button>
+          </div>
+        </form>  
+      </div>
+    </section>
+
+    <div class="derechos">
+      <p class="text-center p-3">&copy; 2021 Todos los derechos reservados - Ricardo Diaz WEB <a href="https://www.instagram.com/ricardoandresd6/" target="_blank"><i class="fab fa-instagram"></i></a><a href="https://www.facebook.com/ricardooandress.diaz" target="_blank"><i class="fab fa-facebook-f"></i></a></p>
+    </div>
+    
+    <footer id="footer" class="footer">
+      <div class="contenedor">
+              <div class="nav-footer">
+                  <img src="img/ayminegraLogo.png"  width="200"/> 
+              </div>
+
+              <div class="nav-footer">
+                <h3 class="titulo-footer">AyMiNegra.com</h3>
+                <nav class="menu">
+                    <a href="#">Empleo</a>
+                    <a href="#">Prensa</a>
+                    <a href="#">Políticas</a>
+                    <a href="#">Ayuda</a>
+                </nav>
+              </div>
+
+              <div class="nav-footer">
+                <h3 class="titulo-footer">Descúbrenos</h3>
+                <nav class="menu">
+                    <a href="#">Ice Cream Rolls</a>
+                    <a href="#">Waffle Pop's</a>
+                    <a href="#">Crepes</a>
+                    <a href="#">Nacho Rolls</a>
+                </nav>
+            </div>
+
+              <div class="nav-footer">
+                  <nav class="sociales">
+                      <ul>
+                          <li><a href="http://facebook.com" target="_blank"><span>Facebook</span></a></li>
+                          <li><a href="http://twitter.com" target="_blank"><span>Twitter</span></a></li>
+                          <li><a href="http://instagram.com" target="_blank"><span>Instagram</span></a></li>
+                      </ul>
+                  </nav>
+                  <nav class="menu">
+                      <a href="#">The anti diet club</a>
+                      <a href="#">Hospitalidad</a>
+                      <a href="#">Ser un anfitrión responsable</a>
+                  </nav>
+              </div>
+      </div>
+    </footer>
+    <a href="#footer" class="btn-flotante">Contacto</a> 
+
+  
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- wow script  -->
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js "></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- include the script -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+    <script>
+      // Animations init
+      new WOW().init();
+      // MDB Lightbox Init
+      $(function () {
+        $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+      });
+    </script>
+    <!--Mis Scripts-->
+    <script type="text/javascript" src="js/app.js"></script>
+
+</body>
+</html>
